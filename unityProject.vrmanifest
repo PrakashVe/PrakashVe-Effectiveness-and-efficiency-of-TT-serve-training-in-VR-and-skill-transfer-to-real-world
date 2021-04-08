@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.tt_19.4_1.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Prakash\\Desktop\\Prakash\\Prakash_Master-Thesis-Uni-Bayreuth-master\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "TT_19.4_1 [Testing]"
+        }
+      }
+    }
+  ]
+}
