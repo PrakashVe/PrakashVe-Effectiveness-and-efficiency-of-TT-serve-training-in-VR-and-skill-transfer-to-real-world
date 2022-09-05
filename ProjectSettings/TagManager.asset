@@ -18,6 +18,17 @@ TagManager:
   - ServeTarget
   - ServeScore
   - RTarget
+  - Rcontroller
+  - Lcontroller
+  - BasketSpawn
+  - BatDistancePoint
+  - Backhandpoint
+  - Forehandpoint
+  - bspawnpoint
+  - fspawnpoint
+  - forehandbat1
+  - forehandbat2
+  - Basket
   layers:
   - Default
   - TransparentFX

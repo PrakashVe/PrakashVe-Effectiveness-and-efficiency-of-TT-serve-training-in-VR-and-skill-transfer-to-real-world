@@ -6,12 +6,12 @@ using UnityEngine.UI;
 using System.IO;
 
 /// <summary>
-///  All code merge with Serve score , so right now No use of this script
+///  All code merge with Serve score , 
 /// </summary>
 public class ServeTarget : MonoBehaviour
 {
     public static int SeCcount = 0;
-    public GameObject[] STargetcube = new GameObject[5];
+    public GameObject[] STargetcube = new GameObject[9];
     private AudioSource STargetSound;
     public TextMeshPro SScoreCounter;
     void Start()
@@ -35,6 +35,10 @@ public class ServeTarget : MonoBehaviour
                     this.GetComponent<MeshRenderer>().enabled = false;
                     this.GetComponent<Collider>().enabled = false;
                 //Debug.Log("Rcount   " + Rcount);
+
+                   SeCcount = Random.Range(1, 9);
+                    Debug.Log("Random range " + SeCcount  );
+
                     SeCcount += 1;
                     STargetcube[SeCcount].GetComponent<MeshRenderer>().enabled = true;
                     STargetcube[SeCcount].GetComponent<Collider>().enabled = true;
